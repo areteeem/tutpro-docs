@@ -1,6 +1,15 @@
 {
+  "framework": "docusaurus-2",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/accounts", "destination": "/guides/accounts", "permanent": true },
+    { "source": "/student/join", "destination": "/guides/student/join", "permanent": true },
+    { "source": "/student/workspaces", "destination": "/guides/student/workspaces", "permanent": true },
+    { "source": "/schools/migration", "destination": "/guides/teacher/schools", "permanent": true }
+  ],
   "headers": [
     { "source": "/(.*)", "headers": [
       { "key": "X-Content-Type-Options", "value": "nosniff" },
