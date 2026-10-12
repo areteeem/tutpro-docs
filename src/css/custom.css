@@ -32,6 +32,8 @@
 }
 html { scroll-behavior: smooth; }
 body { letter-spacing: -.008em; }
+.navbar.navbar--fixed-top { position: fixed; inset: 0 0 auto; width: 100%; }
+.main-wrapper { padding-top: var(--ifm-navbar-height); }
 .navbar { border-bottom: 1px solid var(--ifm-color-emphasis-200); box-shadow: none; backdrop-filter: saturate(180%) blur(18px); }
 .navbar__title { font-size: 1.02rem; font-weight: 650; letter-spacing: -.025em; }
 .navbar__logo { margin-right: .55rem; }
