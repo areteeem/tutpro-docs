@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">TutPro app icon</title>
-  <desc id="desc">The TutPro refined Loop mark on a navy rounded square.</desc>
-  <rect width="512" height="512" rx="112" fill="#0B1F3A"/>
+  <title id="title">TutPro Help icon</title>
+  <desc id="desc">The TutPro Loop mark in grayscale on a charcoal rounded square, identifying the documentation site.</desc>
+  <rect width="512" height="512" rx="112" fill="#202124"/>
   <g transform="translate(51.2 51.2) scale(.8)">
     <path
       d="M240 104H300a136 136 0 0 1 0 272H244v64"
       fill="none"
-      stroke="#60A5FA"
+      stroke="#B8BCC2"
       stroke-width="72"
       stroke-linecap="round"
       stroke-linejoin="round"

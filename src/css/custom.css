@@ -41,6 +41,7 @@ body { letter-spacing: -.008em; }
 .menu__link { border-radius: .55rem; font-size: .91rem; }
 .menu__list-item-collapsible > .menu__link { font-weight: 650; }
 .theme-doc-sidebar-container { border-right-color: var(--ifm-color-emphasis-200)!important; }
+.docMainContainer > .container.padding-top--md { padding-top: 0 !important; }
 .theme-doc-markdown { max-width: 780px; }
 .theme-doc-markdown h1 { font-size: clamp(2.35rem, 5vw, 3.3rem); line-height: 1.1; letter-spacing: -.055em; }
 .theme-doc-markdown h2 { margin-top: 2.7rem; font-size: 1.7rem; letter-spacing: -.035em; }
