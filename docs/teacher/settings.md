@@ -50,6 +50,7 @@ These controls change what the Student app displays. They do not remove the unde
 Open **Settings → Notifications**. Student activity alerts can be controlled with the **Student updates** master switch and its individual options:
 
 - **Homework submissions** alerts you when a student submits or updates homework.
+- **Assessment submissions** alerts you when a student completes a TutPro Assess assessment. The alert appears in the Teacher notification center and is sent as a browser push notification when push is enabled for that browser.
 - **Lesson ratings** alerts you when a student rates a lesson.
 - **Push notifications** subscribes this browser to supported Teacher alerts. The permission row shows whether this site is allowed to display notifications in this browser. The switch reports the push subscription on this browser; each browser or device needs its own subscription.
 - **Lesson reminders** and **Payment reminders** control the supported Teacher reminders.
