@@ -59,12 +59,26 @@ const screenshotGuides = {
   'Printable assessment export dialog showing student handout, checkable handout, and teacher answer key.': {
     crop: {position: '50% 50%', ratio: '1.35 / 1', label: 'Export choices close-up'},
     marks: [
-      {number: '1', title: 'Choose a student handout', x: 9, y: 29, w: 82, h: 10},
-      {number: '2', title: 'Choose a checkable handout for AutoCheck', x: 9, y: 45, w: 82, h: 10},
-      {number: '3', title: 'Keep the teacher answer key private', x: 9, y: 62, w: 82, h: 10},
+      {number: '1', title: 'Choose a student handout', x: 9, y: 39, w: 82, h: 10},
+      {number: '2', title: 'Choose a checkable handout for AutoCheck', x: 9, y: 53, w: 82, h: 10},
+      {number: '3', title: 'Keep the teacher answer key private', x: 9, y: 67, w: 82, h: 10},
     ],
   },
 };
+
+function ScreenshotMark({mark}) {
+  return (
+    <span
+      className="guide-screenshot__target"
+      key={mark.number}
+      style={{left: `${mark.x}%`, top: `${mark.y}%`, width: `${mark.w}%`, height: `${mark.h}%`}}
+      data-label={mark.title}
+      aria-label={`${mark.number}: ${mark.title}`}
+      tabIndex="0">
+      <b aria-hidden="true">{mark.number}</b>
+    </span>
+  );
+}
 
 function ScreenshotImage(props) {
   const guide = screenshotGuides[props.alt];
@@ -76,21 +90,13 @@ function ScreenshotImage(props) {
         <a id={`${viewerId}-trigger`} className="guide-screenshot__expand" href={`#${viewerId}`} aria-label={`View full-screen: ${props.alt || 'screenshot'}`}>
           <MDXImg {...props} />
         </a>
-        {guide?.marks.map((mark) => (
-          <span
-            className="guide-screenshot__target"
-            key={mark.number}
-            style={{left: `${mark.x}%`, top: `${mark.y}%`, width: `${mark.w}%`, height: `${mark.h}%`}}
-            aria-hidden="true">
-            <b>{mark.number}</b>
-          </span>
-        ))}
+        {guide?.marks.map((mark) => <ScreenshotMark key={mark.number} mark={mark} />)}
       </div>
       {guide && <>
         <figcaption>
           <span>{props.alt}</span>
           <ol>
-            {guide.marks.map((mark) => <li key={mark.number}><b>{mark.number}.</b> {mark.title}</li>)}
+            {guide.marks.map((mark) => <li key={mark.number}>{mark.title}</li>)}
         </ol>
         </figcaption>
         <details className="guide-screenshot__detail">
@@ -111,15 +117,7 @@ function ScreenshotImage(props) {
         <a className="guide-screenshot__close" href={`#${viewerId}-trigger`} aria-label="Close full-screen screenshot">Close</a>
         <div className="guide-screenshot__viewer-image">
           <MDXImg {...props} />
-          {guide?.marks.map((mark) => (
-            <span
-              className="guide-screenshot__target"
-              key={mark.number}
-              style={{left: `${mark.x}%`, top: `${mark.y}%`, width: `${mark.w}%`, height: `${mark.h}%`}}
-              aria-hidden="true">
-              <b>{mark.number}</b>
-            </span>
-          ))}
+          {guide?.marks.map((mark) => <ScreenshotMark key={mark.number} mark={mark} />)}
         </div>
         <p className="guide-screenshot__viewer-caption">{props.alt || 'Screenshot'} · Click outside to close</p>
       </div>

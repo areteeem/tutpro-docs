@@ -21,7 +21,7 @@ module.exports = {
     ]},
     {type: 'category', label: 'Decks', items: ['decks/overview', 'decks/tutorials', 'decks/library', 'decks/build-and-study', 'decks/study-modes', 'decks/progress', 'decks/teacher-guide', 'decks/student-guide', 'decks/shared-decks', 'decks/settings']},
     {type: 'category', label: 'Assess', items: ['assess/overview', 'assess/tutorials', 'assess/builder', 'assess/question-types', 'assess/quiz-controls', 'assess/vision-monitoring', 'assess/pdf-exports', 'assess/responses', 'assess/autocheck', 'assess/student-guide', 'assess/academic-integrity', 'assess/release-notes', 'assess/autocheck-release-notes']},
-    {type: 'category', label: 'Wordly', items: ['wordly/overview', 'wordly/home', 'wordly/editor-and-library', 'wordly/vocabulary-browser', 'wordly/exercises', 'wordly/practice-and-export', 'wordly/settings']},
+    {type: 'category', label: 'Wordly', items: ['wordly/overview', 'wordly/tutorials', 'wordly/home', 'wordly/editor-and-library', 'wordly/vocabulary-browser', 'wordly/exercises', 'wordly/practice-and-export', 'wordly/settings']},
     {type: 'category', label: 'Self-hosting', items: ['hosting/overview', 'hosting/backend', 'hosting/domains', 'hosting/releases']},
   ],
 };

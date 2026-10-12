@@ -1,30 +1,32 @@
 ---
 title: Editor and library
-description: Organize folders and documents, edit vocabulary, and use the built-in browser.
+description: Create rich-text documents, organize folders, and collect vocabulary from reading.
 ---
 
 # Editor and library
 
-Wordly keeps its vocabulary workspace in the current browser profile. Start from the home page, where you can reopen recent documents, check the word of the day, and see weekly or mastery summaries.
+Wordly’s editor is for reading notes and vocabulary context. Documents autosave as you work; the status beside the title shows **Saving...** or **Saved**. Wait for **Saved** before leaving a document if you have just made a large change.
 
-## Folders and documents
+## Organize folders and documents
 
-Create a folder for a course, language, or topic. Open it and create a document. Use headings and sections to separate themes, then add vocabulary entries with a word, translation, and any useful notes or tags. Use the folder and document list to rename, reopen, or organize saved material.
+1. Open the Folders panel. Choose **New Folder**, enter a name, and choose **Add**.
+2. Select the folder and choose **New Document**. You can also create a document with **Ctrl/⌘+N**.
+3. Edit the document title, then add document tags in the row under the title by typing a tag and pressing **Enter**.
+4. Use the editor toolbar for headings, lists, emphasis, alignment, links, and other formatting. You can paste or drop an image into the document.
+5. Reopen documents from the folder list or recent-document cards on Home. Drag a document onto another folder to move it.
 
-## Edit a document
+Folders and documents can be renamed or deleted from the Folders panel. Keep related notes together so vocabulary captured from them is easier to filter later.
 
-Select a word or entry to edit its fields. Use the editor’s formatting controls to structure explanations and examples. Save changes and check that the updated document appears in the library. Keep one document focused on a lesson or topic so it remains easy to review.
+## Add vocabulary while reading
 
-## Vocabulary browser
+Select a word or phrase in the editor to open the vocabulary popup. Check or edit the suggested translation, preserve the sentence context, and choose **Add**. Wordly highlights the text and links the entry to this document and position. If the selected form is inflected, edit it to a dictionary form before adding.
 
-Open the vocabulary browser (shortcut **Ctrl/⌘+Shift+B** where supported) to view collected terms in a table or card layout. Search or filter the list, star words for later, edit entries, copy a table or list, and jump back to a word’s source document. Use CSV export when you need a spreadsheet copy.
+You can also add a word manually in the Vocabulary panel or paste multiple lines. See [capture vocabulary](./tutorials#2-add-a-word-from-your-reading) and [import a list](./tutorials#3-add-a-list-of-words).
 
-## Templates and command palette
+## Templates and quick actions
 
-Choose a template when you want a consistent document structure. Open the command palette with **Ctrl/⌘+K** to discover quick actions. The keyboard-shortcut panel lists the actions supported by your browser and operating system.
+Open the command palette with **Ctrl/⌘+K**. Search for a command or document, then use the arrow keys and **Enter** to select it. When a document is open, choose **Save as Template** to reuse its content and tags. Later, choose **New from: _template name_** in the palette to create a copy in the selected folder.
 
-## Appearance and language preferences
+The shortcut panel opens with **?** when focus is outside an input or the editor. Use it to check available commands for the current release.
 
-Open **Settings** (**Ctrl/⌘+,** where supported) to adjust appearance, editor behavior, vocabulary display, translation, highlighting, export, and data options. Preference labels can differ slightly across releases.
-
-<div className="actionLinks"><a href="https://wordly.tutpro.org">Open Wordly ↗</a><a href="./practice-and-export">Continue to practice and export →</a></div>
+<div className="actionLinks"><a href="https://wordly.tutpro.org">Open Wordly ↗</a><a href="./vocabulary-browser">Continue to Vocabulary browser →</a></div>

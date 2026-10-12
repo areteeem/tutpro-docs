@@ -1,32 +1,36 @@
 ---
 title: Overview
-description: Organize vocabulary, study words, practice exercises, and export your material.
+description: Explore Wordly vocabulary documents, capture tools, review modes, and export options.
 ---
 
-# Overview
+# Wordly overview
 
-Wordly is a local-first vocabulary workspace. Use it to organize vocabulary in folders and documents, enrich entries, practice with exercise modes, and export study material. In the current app, your browser stores the workspace locally; use the export options as part of your own backup routine.
+Wordly is a browser-based vocabulary workspace for collecting terms while reading, organizing them in documents, practicing recall, and preparing study material to print or export.
 
-<div className="guide-feature-note"><p><strong>Wordly features can change.</strong> Workspace tools and export options may change as the app evolves. We’ll update this guide as soon as possible after confirmed changes; the current app controls take precedence.</p></div>
+## What you can do
 
-## Organize a vocabulary collection
+- **Write and organize:** Keep reading notes in rich-text documents, group documents in folders, and label documents with tags.
+- **Collect vocabulary:** Select text to open the add-to-vocabulary popup with sentence context and an optional translation suggestion. Add terms manually or paste a word list.
+- **Review vocabulary:** Search and filter entries, use stars and tags, revisit the source document, or practice in one of ten exercise modes.
+- **Track practice:** Use flashcard ratings and the home page’s daily, weekly, due-review, and mastery summaries to plan a session.
+- **Export or continue in Decks:** Download CSV, text, Anki, or PDF material, or send the current vocabulary list to TutPro Decks for review before import.
 
-1. Open [Wordly](https://wordly.tutpro.org).
-2. Create a folder for a language, course, or topic.
-3. Create a document inside the folder and add a heading and vocabulary entries.
-4. Use the vocabulary panel to review words and associated translations, tags, or notes.
-5. Save your document and return to it from the folder list.
+## A simple first session
 
-## Study and exercise
+1. Create a folder for a language, course, or topic if you want one.
+2. Create a document, add reading text, and select unfamiliar terms to collect them.
+3. Review the translations, context, and tags in the Vocabulary panel.
+4. Open Exercises and practice a few terms.
+5. Export a backup or a handout when you are ready to use the material elsewhere.
 
-Open the vocabulary practice or exercise mode from the document workspace. Choose a mode, work through the prompts, and repeat the words you find difficult. The daily goal and study preferences are available in Settings.
+See [Wordly tutorials](./tutorials) for detailed walkthroughs and [Home](./home) for the dashboard.
 
-## Templates, commands, and export
+## Where your data is stored
 
-Use the template controls when starting from a repeated structure. The command palette and keyboard-shortcut panel expose available quick actions. Use **Export** to save a portable copy of your material in a supported format.
+Wordly saves its workspace in browser storage on the device. It does not use a shared TutPro account database for documents and folders, so this workspace does not automatically follow you to a different browser or device. Vocabulary changes can be shared between Wordly tabs in the same browser profile. Export important material before clearing site data or changing devices.
 
-## Local storage and devices
+Translation suggestions are requested from external translation services when you use the capture or manual-add controls. Check suggestions before relying on them; availability and quality can vary.
 
-Wordly’s current client uses browser storage instead of a shared TutPro database. Data saved in one browser profile may not appear on another device. Export a backup before clearing site data or changing browsers. If a future build adds account sync, follow that release’s migration notes before relying on it.
+<div className="guide-feature-note"><p><strong>Feature details can change.</strong> The current app controls take precedence if a label or option differs from this guide.</p></div>
 
 <div className="actionLinks"><a href="https://wordly.tutpro.org">Open Wordly ↗</a><a href="../hosting/overview">Read suite hosting overview →</a></div>
