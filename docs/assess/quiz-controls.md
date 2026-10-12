@@ -19,4 +19,6 @@ Review Assessment Flow and Results & review options to control how students move
 
 Entry questions can collect student details before Start. Mark only necessary fields as required. Reference sheets let students open provided formulas or text during the attempt. Add instructions and completion text so students know what to do before and after the quiz.
 
-<div className="actionLinks"><a href="https://assess.tutpro.org/builder">Open Builder ↗</a><a href="./student-guide">Student attempt guide →</a><a href="./academic-integrity">Academic integrity guidance →</a></div>
+To calibrate an optional on-device camera check and configure its gaze tolerance, delay, and warning limit, see [Camera gaze monitoring](./vision-monitoring).
+
+<div className="actionLinks"><a href="https://assess.tutpro.org/builder">Open Builder ↗</a><a href="./vision-monitoring">Camera gaze monitoring →</a><a href="./student-guide">Student attempt guide →</a><a href="./academic-integrity">Academic integrity guidance →</a></div>

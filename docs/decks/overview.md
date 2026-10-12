@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Learn how TutPro Decks helps teachers and students practice flashcards.
+description: Learn how Decks helps teachers and students practice flashcards.
 ---
 
 # Overview

@@ -1,6 +1,6 @@
 ---
 title: Teacher guide
-description: Build, configure, publish, and review forms and quizzes in TutPro Assess.
+description: Build, configure, publish, and review forms and quizzes in Assess.
 ---
 
 # Teacher guide
@@ -9,7 +9,7 @@ Assess has two authoring modes: **Form** collects responses; **Quiz** supports s
 
 ## Create a form or quiz
 
-1. Open [TutPro Assess](https://assess.tutpro.org/assessments) and choose **New assessment**.
+1. Open [Assess](https://assess.tutpro.org/assessments) and choose **New assessment**.
 2. Set the title and choose **Form** or **Quiz**.
 3. Add a group to organize questions into sections, then add questions within each group.
 4. Choose a task type, enter the prompt, and fill in answer choices or expected responses.

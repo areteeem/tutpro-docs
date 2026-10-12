@@ -9,7 +9,7 @@ You can open an assessment through an assignment in Student or by using the join
 
 ## Join an assessment
 
-1. Open the assessment assignment from Student, or visit [TutPro Assess](https://assess.tutpro.org) and enter the code from your teacher.
+1. Open the assessment assignment from Student, or visit [Assess](https://assess.tutpro.org) and enter the code from your teacher.
 2. If requested, answer the entry questions such as your name or class.
 3. Read the instructions and any time limit or attempt information before starting.
 4. If reference sheets are enabled, open them while working.
@@ -35,4 +35,4 @@ Your teacher may release results later. Some quizzes show immediate scores while
 - **A question did not save:** return to the assignment and check the attempt state before starting again.
 - **You cannot see your result:** the teacher may need to finish reviewing or release it.
 
-<div className="actionLinks"><a href="https://student.tutpro.org">Open Student ↗</a><a href="https://assess.tutpro.org">Open TutPro Assess ↗</a></div>
+<div className="actionLinks"><a href="https://student.tutpro.org">Open Student ↗</a><a href="https://assess.tutpro.org">Open Assess ↗</a></div>
