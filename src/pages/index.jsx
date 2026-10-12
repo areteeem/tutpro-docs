@@ -17,7 +17,7 @@ export default function Home() {
         <p className={styles.eyebrow}>TUTPRO HELP</p>
         <h1>Make more room<br/>for learning.</h1>
         <p className={styles.lead}>Clear, practical guides to help you teach, learn, and run TutPro with confidence.</p>
-        <Link className={styles.primaryLink} to="/guides">Browse all guides <span aria-hidden="true">→</span></Link>
+        <Link className={styles.primaryLink} to="/guides/accounts">Browse all guides <span aria-hidden="true">→</span></Link>
       </div>
       <div className={styles.guideGrid}>
         {paths.map((item) => <Link className={styles.guideCard} to={item.href} key={item.eyebrow}>

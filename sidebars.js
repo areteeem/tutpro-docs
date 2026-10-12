@@ -1,6 +1,5 @@
 module.exports = {
   guideSidebar: [
-    'index',
     {type: 'category', label: 'Get started', items: ['accounts', 'teacher/first-week', 'student/join', 'student/workspaces']},
     {type: 'category', label: 'Teacher', items: [
       'teacher/dashboard', 'teacher/students', 'teacher/groups', 'teacher/forms',

@@ -5,6 +5,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    { "source": "/guides", "destination": "/guides/accounts", "permanent": true },
     { "source": "/accounts", "destination": "/guides/accounts", "permanent": true },
     { "source": "/student/join", "destination": "/guides/student/join", "permanent": true },
     { "source": "/student/workspaces", "destination": "/guides/student/workspaces", "permanent": true },

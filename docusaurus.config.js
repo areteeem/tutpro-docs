@@ -43,7 +43,7 @@ module.exports = {
         height: 30,
       },
       items: [
-        {to: '/guides', label: 'Guides', position: 'left'},
+        {to: '/guides/accounts', label: 'Guides', position: 'left'},
         {href: 'https://www.tutpro.org', label: 'Open TutPro', position: 'right'},
       ],
     },
@@ -58,7 +58,7 @@ module.exports = {
           {label: 'Wordly', href: 'https://wordly.tutpro.org'},
         ]},
         {title: 'Help', items: [
-          {label: 'Browse all guides', to: '/guides'},
+          {label: 'Browse all guides', to: '/guides/accounts'},
           {label: 'Contact support', href: 'mailto:inquire@tutpro.org'},
         ]},
       ],
